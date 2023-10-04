@@ -9,57 +9,7 @@ body{
     min-height: 100vh;
 }
 
-/*
-header{
-    display:flex;
-    flex-wrap: wrap;
-    background-color: rgb(53, 58, 64);
-    height: 70px;
-   gap: 20px;
-}
 
-.codoacodo{
-    color: white;
-    font-size: 25px;
-    align-items: center;
-}
-
-
-.navegador{
-    display:flex;
-    flex-wrap: wrap;
-    color: rgb(247, 255, 255);
-    text-align: center;
-    align-items:self-end;
-}
-
-.navegador a{
-    font-size: 18px;
-    color: azure;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-}
-
-.logo1{
-    background-color: rgb(28, 57, 73);
-    padding: 20px 0;
-    
-}
-
-.logo{
-    display: flex ;
-    flex-wrap: wrap;
-    align-items: self-end;
-}
-
-.logo img{
-height: 60px;
-margin:0 20px;
-
-}
-
-*/
 
 .card-img{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(IMG/hawaii.jpg);
