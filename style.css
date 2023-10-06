@@ -12,12 +12,17 @@ body{
 
 
 .card-img{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(IMG/hawaii.jpg);
+    background-image: linear-gradient(rgba(63, 16, 16, 0.5),rgba(12, 0, 0, 0.5)),url(IMG/hawaii.jpg);
 }
 
 .card-img-overlay{
     text-align:right;
     align-items:end ;
+    display: flex;
+}
+
+.card2{
+
 }
 
 .oradores{
@@ -26,42 +31,8 @@ body{
 
 
 
-.card-img-overlay{
-    display:grid;
-
-}
-
 .boton{
     size: 10%;
-}
-.hono{
-    display:flex;
-    justify-content: left;
-    align-items: start;
-    border-color: 1px black ;
-    background-color: rgb(61, 58, 58);
-    margin: 0;
-    padding: 0;
-    gap: 60px;
-   
-}
-
-.hono1{
-    width: 50%;
-    
- 
-}
-
-.hono2{
-    width: 50%;
-    color: aliceblue;
-    font-size: 25px;
-}
-
-.hono p{
-    font-size: 12.4px;
-    color: white;
-    
 }
 
 .footer{
@@ -89,6 +60,14 @@ body{
     
 }
 
+@media screen and (max-width:700px){
+
+    footer-link{
+      flex-direction:row;
+    }
+  }
+
+  
 .footer-links h4 a{
     font-size: 15px;
    color: azure;
@@ -174,11 +153,11 @@ font-size: 12px;
 
 
 .header{
-
+   
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 10px 10px;
     background-color: rgb(53, 58, 64);
     display: flex;
     justify-content: space-between;
@@ -187,28 +166,124 @@ font-size: 12px;
 }
 
 .header h2{
-    font-size: 22px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-weight: 700;
     text-align: left;
-    align-items: center;
-
+    align-items:flex-start;
+    
 }
 
 .header img{
-width: 150px;
+width: 110px;
+margin: 0 80px;
 
 }
 
 .navbar a{
     font-size: 18px;
-    color: white;
+    color: rgb(157, 156, 162);
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 30px;
+}
+
+.navbar{
+text-align: left;
 }
 
 #comprar{
     color: rgb(41, 167, 70);
+}
+
+#conf{
+    color: white;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .titulo p{
+  text-align: center;
+  margin-top:7px;
+  margin-bottom: 5px;
+  }
+  .titulo p+h3{
+  
+    text-align: center;
+  margin-top:1px;
+  }
+  .btn-info {
+  background-color: gray;
+  color: var(--colorenlace);
+  margin-top: 1px;
+  border-style: none;
+  }
+  
+  .custom-button{
+   width: 25%;
+  
+  }
+  .card{
+  margin-top: 30px;
+  
+  }
+  .image-container {
+    border: 1px solid white;}
+  
+  .informe p{
+    text-align: center;
+   margin-bottom: 2px;
+    }
+
+    span{
+        text-decoration: underline dotted;
+      }
+      #inputNombre {
+        width: 75%;
+       
+      
+      }
+    
+      #inputApellido {
+        width: 75%;
+      
+      }
+      textarea{
+    height: 70px;
+    
+      }
+      
+     .mensaje p{
+    text-align: left;
+    margin-left: 325px;
+    margin-top: 5px;
+    font-size: 10px;
+    color: gray;
+      }
+      
+     .btn-success{
+    
+      background-color: var(--colorbtn);
+      margin-top: 7px;
+     }
+
+
+
+
+.card-text h2{
+font-size: 40px;
+color: white;
+}
+
+.card-text{
+    justify-content: end;
+    text-align: end;
+    color: white;
+}
+
+img{
+    background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ;
 }
