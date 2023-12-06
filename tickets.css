@@ -1,0 +1,294 @@
+/*tickets*/
+.header{
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgb(53, 58, 64);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.card-img{
+    background-image: linear-gradient(rgba(63, 16, 16, 0.5),rgba(12, 0, 0, 0.5)),url(IMG/hawaii.jpg);
+}
+
+.card-img-overlay{
+    text-align:right;
+    align-items:end ;
+    display: flex;
+}
+
+.header h2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: left;
+    align-items:flex-start;
+    
+}
+
+.header img{
+width: 110px;
+margin: 0 80px;
+
+}
+
+.navbar a{
+    font-size: 18px;
+    color: rgb(157, 156, 162);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.navbar{
+text-align: left;
+}
+
+#comprar{
+    color: rgb(41, 167, 70);
+}
+
+#conf{
+    color: white;
+}
+
+
+#logo{
+    text-decoration: none;
+    margin: 0px 30px;
+}
+
+    .footer{
+        background-color: rgb(28, 57, 73);
+        padding: 20px 0;
+        
+    }
+    
+    .container1{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .footer-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    
+    }
+    
+    .footer-links{
+        width: 13%;
+        padding: 0 15px;
+        
+    }
+
+    .footer-links h4 a{
+        font-size: 15px;
+       color: azure;
+       text-decoration: none;
+       text-align: center;
+        
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      
+      .titulo p{
+      text-align: center;
+      margin-top:7px;
+      margin-bottom: 5px;
+      }
+      .titulo p+h3{
+      
+        text-align: center;
+      margin-top:1px;
+      }
+      .btn-info {
+      background-color: gray;
+      color: var(--colorenlace);
+      margin-top: 1px;
+      border-style: none;
+      }
+      
+      .custom-button{
+       width: 25%;
+      
+      }
+      .card{
+      margin-top: 30px;
+      
+      }
+      .image-container {
+        border: 1px solid white;}
+      
+      .informe p{
+        text-align: center;
+       margin-bottom: 2px;
+        }
+    
+        span{
+            text-decoration: underline dotted;
+          }
+          #inputNombre {
+            width: 75%;
+           
+          
+          }
+        
+          #inputApellido {
+            width: 75%;
+          
+          }
+          textarea{
+        height: 70px;
+        
+          }
+          
+         .mensaje p{
+        text-align: left;
+        margin-left: 325px;
+        margin-top: 5px;
+        font-size: 10px;
+        color: gray;
+          }
+          
+         .btn-success{
+        
+          background-color: var(--colorbtn);
+          margin-top: 7px;
+         }
+
+
+
+
+/*formulario*/
+
+#venta{
+    text-align: center;
+    font-size: medium;
+         }
+
+#valorventa{
+    text-align: center;
+    font-size: 300%;
+
+         }
+
+.tickets{
+    display: flex ;
+    text-align: center;
+
+    justify-content:center;
+    align-content:space-around;
+
+}
+
+.tickets1{
+    margin: 25px;
+    border: 2px solid rgb(0, 123, 255);
+    width: 250px;
+    height: 220px;
+    line-height: 1.8;
+}
+
+.tickets2{
+    margin: 25px;
+    
+    border: 2px solid rgb(23, 162, 184);
+    width: 250px;
+    height: 220px;
+    line-height: 1.8;
+}
+
+.tickets3{
+    margin: 25px;
+    border: 2px solid rgb(255, 193, 7);
+    width: 250px;
+    height: 220px;
+    line-height: 1.8;
+}
+
+#letra{
+    font-size: 150%;
+}
+
+#descuento{
+    word-spacing: 1vh;
+    font-size: 110%;
+}
+
+#doc{
+    font-size: 90%;
+}
+
+.form2{
+    display: flex;
+    flex-wrap:nowrap;
+    margin:0  200;
+    text-align: left;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.cantidad{
+    height: 30px;
+    width: 370px;
+    justify-content: center;
+    margin:0;
+    border-radius: 5px 5px;
+    border: 2px solid rgb(206, 212, 218);
+}
+
+#categoria{
+    height: 30px;
+    width: 370px;
+    justify-content: center;
+    margin:0;
+    border-radius: 5px 5px;
+    border: 2px solid rgb(206, 212, 218);
+}
+
+.total{
+    background-color: rgb(204, 229, 255);
+    border: 2px solid rgb(184, 218, 255);
+    border-radius: 5px 5px;
+    width: 750px;
+    height: 50px;
+    margin: auto;
+}
+
+.resumen{
+    display:inline-flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 450px;
+}
+
+.btn{
+    width: 300px;
+    padding: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(151, 201, 62);
+
+}
+
+#totalPagar{
+    background-color: rgb(204, 229, 255);
+    border: rgb(184, 218, 255) ;
+}

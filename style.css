@@ -42,7 +42,7 @@ body{
     
 }
 
-.container1{ dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, c
+.container1{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -154,7 +154,7 @@ font-size: 12px;
 
 
 .header{
-   
+
     top: 0;
     left: 0;
     width: 100%;
@@ -289,24 +289,3 @@ img{
     background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ;
 }
 
-/*tickets*/
-
-#logo{
-    text-decoration: none;
-    margin: 0px 30px;
-}
-
-.tickets{
-    display: flex;
-    text-align: center;
-    gap: 50px;
-    justify-content: center;
-    padding: 0 20px;
-    
-}
-
-.tickets1{
-    border-color: blue solid 10px;
-    box-sizing: border-box;
-    width: 30%;
-    }
